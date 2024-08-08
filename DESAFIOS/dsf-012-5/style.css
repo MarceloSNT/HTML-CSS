@@ -9,16 +9,22 @@
     --font2:'Exo 2', cursive;
     --font3:'Ubuntu', cursive;
 }
+/*-----------------------------------------------------------------------*/
+
 *{
     margin: 0px;
     padding: 0px;
 }
+/*-----------------------------------------------------------------------*/
 
+/*BODY*/
 html, body{
     font-family: var(--font1);
     min-height: 100vh;
     background-color: darkgray;
 }
+
+/*-----------------------------------------------------------------------*/
 
 header{
     background-color: black;
@@ -32,6 +38,7 @@ header>h1{
     font-variant: small-caps;
 }
 header>p{
+    font-size: 2vw;
     padding-bottom: 50px;
 }
 a{
@@ -43,6 +50,8 @@ a:hover{
     text-decoration: underline;
 }
 
+/*-----------------------------------------------------------------------*/
+
 section{
     font-size: 3,3vw;
     font-family: var(--font3);
@@ -51,21 +60,39 @@ section{
     line-height: 2em;
     padding-left: 30px;
 }
+section>p{
+    padding-bottom: 2em;
+}
+
 .normal{
     background-color: white;
     color: black;
 }
 .image{
-    background-color: rgb(10, 9, 9);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.363);
     color: white;
+    background-color: rgb(10, 9, 9);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.image>p{
-    background-color: rgba(31, 28, 28, 0.089);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.301);
+    background-color: rgba(31, 28, 28, 0.356);
     display: inline-block;
     padding: 5px;
 }
 
+/*-----------------------------------------------------------------------*/
 
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+#img02{
+    background-image: url(imagens/background002.jpg);
+}
+
+/*-----------------------------------------------------------------------*/
 
 footer{
     background-color: black;
