@@ -2,6 +2,6 @@
 /*aparelho deitado (landscape)*/
 
 body{
-    background-image: url(../imagens/cev-landscape.jpg);
+    background-image: url(../mq02/img/cev-landscape.jpg);
     background-position: left bottom;
 }
